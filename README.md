@@ -1,4 +1,11 @@
-We implemented **Task 5** using a serverless application running on **AWS Lambda**.
-`template.yaml` is the config file for the **Lambda** function that specifies the **ReST API path** : `\lmbdafn`, and the **Handler** : `cpen221.mp3.lambda.Function::handleRequest`.
-We used **AWS's** `sam` to build and deploy `mp3-Erling` on AWS.
-Currently the lambda function is triggered at the endpoint `https://2a9yquga3f.execute-api.us-east-2.amazonaws.com/default/IoT_Prediction_Overhead/lmbdafn` with a `HTTP GET`  request with three parameters. This endpoint is hit by a `PreictorThread`.
+# SoundWave Analysis Program
+
+Developed Java program to work with sound, especially sound datatypes. Implemented diverse range of operations on sound waves for wave analysis. Basic operations included transforming sound waves into different geometric representations such as sinusoidal, square, and triangle waveforms. Some of the more sophisticated operations follow:
+
+- Adding echoes;
+- Implementing a high-pass filter to remove low frequency noise from audio;
+- Supporting the discrete Fourier transform (DFT) operation on a sound wave;
+- Comparing two sound waves;
+- Grouping music by structural similarity.
+
+The program supports both MP3 and WAV files to analyze and sound waves were visualized using Swing, a GUI tool in Java.
