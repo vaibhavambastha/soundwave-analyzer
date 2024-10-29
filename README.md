@@ -1,11 +1,21 @@
 # SoundWave Analysis Program
 
-Developed Java program to work with sound, especially sound datatypes. Implemented diverse range of operations on sound waves for wave analysis. Basic operations included transforming sound waves into different geometric representations such as sinusoidal, square, and triangle waveforms. Some of the more sophisticated operations follow:
+Developed a Java-based program for performing comprehensive sound wave analysis and manipulation. This program supports a range of operations on audio files (MP3 and WAV), including waveform transformations, filtering, and structural comparison, with visualizations powered by Java Swing for an interactive user experience.
 
-- Adding echoes;
-- Implementing a high-pass filter to remove low frequency noise from audio;
-- Supporting the discrete Fourier transform (DFT) operation on a sound wave;
-- Comparing two sound waves;
-- Grouping music by structural similarity.
 
-The program supports both MP3 and WAV files to analyze and sound waves were visualized using Swing, a GUI tool in Java.
+## Features
+
+### Basic Operations
+- **Waveform Transformation**: Transform audio into sinusoidal, square, and triangle waveforms.
+- **Echo Addition**: Add echoes to enhance sound depth and texture.
+- **High-Pass Filter**: Filter out low-frequency noise, clarifying higher frequency components.
+
+### Advanced Analysis
+- **Discrete Fourier Transform (DFT)**: Perform DFT to analyze frequency components and transform sound waves into the frequency domain.
+- **Waveform Comparison**: Compare two sound waves to assess structural similarity and group music by similarity.
+- **Visualization**: Real-time waveform visualizations using Java Swing for interactive analysis.
+
+## Technologies Used
+- **Java**: Core programming language for functionality and operations.
+- **Swing**: Java GUI library for visualizing waveforms and providing user interaction.
+- **Audio Formats**: Supports both MP3 and WAV file analysis.
